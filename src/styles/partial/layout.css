@@ -1,0 +1,84 @@
+/* #region Header */
+header {
+    padding-top: 40px;
+}
+
+header nav {
+    margin-left: 4.5rem;
+}
+
+@media (max-width:992px) {
+    header nav {
+        display: none !important;
+    }
+}
+
+header nav a {
+    color: var(--color-black);
+    font-size: var(--typography-h6);
+    margin-right: 2rem;
+}
+
+header nav a:nth-child(1) {
+    margin-right: 0;
+}
+
+header .left>a {
+    font-size: var(--typography-sm);
+    border: 1px solid var(--color-blue);
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+}
+
+/* #endregion Header */
+
+
+/* #region Section Footer */
+footer {
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+footer h3 {
+    font-size: var(--typography-h4);
+    font-weight: 700;
+}
+
+footer h3 span {
+    color: var(--color-blue);
+}
+
+footer p {
+    font-size: var(--typography-h6);
+    font-weight: 500;
+    line-height: 180%;
+    color: var(--color-gray);
+    margin-bottom: 2.5rem;
+}
+
+footer .copy-right {
+    margin-top: 2.1rem;
+}
+
+footer .copy-right .right span {
+    font-size: var(--typography-h6);
+    font-weight: 500;
+    color: var(--color-gray);
+    margin-right: 2rem;
+}
+
+footer .left ul li {
+    border-radius: 100%;
+    border: 1px solid var(--color-gray-100);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .left ul li:nth-child(1) {
+    margin-left: 0.5rem;
+}
+
+/* #endregion Section Footer */

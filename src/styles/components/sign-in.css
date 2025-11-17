@@ -1,0 +1,67 @@
+/* #region Section Sign In */
+.sign-in {
+    background-image: url("./../../public/assets/images/sign-in-back.png");
+    margin-top: 4.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sign-in .backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.sign-in .content {
+    padding: 2.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.sign-in h3 {
+    color: var(--color-white);
+    font-size: var(--typography-h1);
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+    .sign-in h3 {
+        font-size: 22px;
+    }
+}
+
+.sign-in p {
+    color: var(--color-white);
+    margin-top: 1rem;
+    font-size: var(--typography-h6);
+    font-weight: 500;
+}
+
+@media (max-width:992px) {
+    .sign-in p {
+        text-align: center;
+    }
+}
+
+.sign-in button {
+    color: var(--color-white);
+    background-color: var(--color-orange);
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    padding: 1rem 3.1rem;
+    font-size: var(--typography-sm);
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-in button svg {
+    margin-left: 0.75rem;
+}
+
+/* #endregion Section Sign In */

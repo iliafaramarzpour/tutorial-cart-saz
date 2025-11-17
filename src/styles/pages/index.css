@@ -1,0 +1,194 @@
+@import url("./../partial/layout.css");
+@import url("./../components/sign-in.css");
+
+/* #region Section Intro */
+main section.intro {
+    padding-top: 51px;
+    position: relative;
+}
+
+main section.intro h2 {
+    max-width: 448px;
+    line-height: 140%;
+    font-size: var(--typography-h1);
+    text-align: center;
+    font-weight: bold;
+    z-index: 2;
+}
+
+@media (max-width:992px) {
+    main section.intro h2 {
+        font-size: 22px;
+    }
+}
+
+main section.intro h2 span {
+    color: var(--color-blue);
+}
+
+main section.intro .watermark {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+main section.intro .video {
+    margin-top: 2.625rem;
+    max-width: 42.93rem;
+    max-height: 24.25rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 2;
+}
+
+main section.intro .video video {
+    width: 100%;
+    height: 100%;
+}
+
+main section.intro p {
+    margin: 2.5rem 0;
+    text-align: center;
+    font-size: var(--typography-h6);
+    line-height: 180%;
+    font-weight: 500;
+    max-width: 50.62rem;
+}
+
+main section.intro .arrow-down {
+    margin-top: 2.5rem;
+    margin-bottom: 4.06rem;
+}
+
+/* #endregion Section Intro */
+
+/* #region Section CTA */
+.cta {
+    padding-top: 2.6rem;
+}
+
+.cta img {
+    width: 100%;
+    max-width: 950px;
+}
+
+.cta .badge {
+    background-color: var(--color-white);
+    font-size: var(--typography-sm);
+    color: var(--color-orange);
+    border-bottom: 1px solid #CBCBCB;
+    border-radius: 80px;
+    padding: 0.3rem 1rem;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.cta .title {
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+    .cta .title {
+        font-size: 22px;
+    }
+}
+
+.cta .description {
+    color: var(--color-gray);
+    font-weight: 500;
+    font-size: var(--typography-h6);
+    margin-top: 0.75rem;
+    max-width: 50rem;
+    text-align: center;
+    line-height: 180%;
+}
+
+.cta .banner {
+    margin-top: 2.75rem;
+}
+
+/* #endregion Section CTA */
+
+/* #region Section Features */
+.features {
+    margin-top: 4.25rem;
+}
+
+.features .badge {
+    background-color: var(--color-white);
+    font-size: var(--typography-sm);
+    color: var(--color-orange);
+    border-bottom: 1px solid #CBCBCB;
+    border-radius: 80px;
+    padding: 0.3rem 1rem;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.features .title {
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+    .features .title {
+        font-size: 22px;
+    }
+}
+
+.features .description {
+    color: var(--color-gray);
+    font-weight: 500;
+    font-size: var(--typography-h6);
+    margin-top: 0.75rem;
+    max-width: 50rem;
+    text-align: center;
+    line-height: 180%;
+}
+
+.features .cards {
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+@media (max-width:992px) {
+    .features .cards .col-3 {
+        grid-column: span 12;
+    }
+}
+
+.features ul.cards li.card {
+    border: 1px solid var(--color-gray-200);
+    border-radius: 0.5rem;
+    padding: 54px 32px 32px;
+    text-align: center;
+    background-color: var(--color-white);
+    transition: scale 0.2s ease-in-out;
+}
+
+.features ul.cards li.card:hover {
+    scale: 1.1;
+}
+
+.features ul.cards li.card h5 {
+    font-size: var(--typography-h5);
+    font-weight: 700;
+    margin-top: 1.8rem;
+}
+
+.features ul.cards li.card p {
+    color: var(--color-gray);
+    font-weight: 300;
+    font-size: var(--typography-sm);
+    margin-top: 1rem;
+    line-height: 180%;
+    max-width: 15rem;
+    text-align: center;
+}
+
+
+
+/* #endregion Section Features */
